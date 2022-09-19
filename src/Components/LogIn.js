@@ -59,7 +59,7 @@ const LogIn = () => {
                     <h3>Enter correct details</h3>
                 )}
             </form>
-            <p> <a href='' onClick={handleClick} >Already have an account  Sign In </a></p>
+            <p> <a href='#' onClick={handleClick} >Already have an account  Sign In </a></p>
         </center>
         ):(
             <Api/>
