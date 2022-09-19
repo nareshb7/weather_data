@@ -66,7 +66,7 @@ const SignIn = () => {
       <h4 color="red" >Please fill details </h4> ) }
 
       </form>
-      <p ><a href='#' onClick={handleClick}>Already have an account Log in</a></p>
+      <p ><a  onClick={handleClick}>Already have an account Log in</a></p>
       {status && (
         <alert >Sucessfull</alert>
       )}
